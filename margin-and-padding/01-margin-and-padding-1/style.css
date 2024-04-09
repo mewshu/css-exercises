@@ -3,26 +3,31 @@ body {
   margin: 0 auto;
 }
 
-.one {
+.one, .three{
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px;
+  margin: 32px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 32px;
+}
+
+.thisone {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .three {
   background: peachpuff;
   border: 3px solid brown;
   width: 200px;
-  /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  
+  
+  
 }

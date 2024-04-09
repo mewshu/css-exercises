@@ -7,10 +7,15 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  margin: 0px;
 }
 
 .content {
@@ -19,9 +24,17 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 8px 32px 8px 32px;
+}
+
+.button-container, .content, .title{
+  padding: 12px;
 }
